@@ -20,11 +20,7 @@
                 <p>From</p>
                 <div class="select-container">
                     <img src="https://flagsapi.com/US/shiny/64.png" alt="image">
-                    <select name="from" id="from">
-                        <option value="INR">INR</option>
-                        <option value="USD" selected>USD</option>
-                        <option value="YEN">YEN</option>
-                    </select>
+                    <select name="from" id="from"></select>
                 </div>
             </div>
             
@@ -34,18 +30,15 @@
                 <p>TO</p>
                 <div class="select-container">
                     <img src="https://flagsapi.com/IN/shiny/64.png" alt="image">
-                    <select name="to" id="to">
-                        <option value="INR">INR</option>
-                        <option value="USD">USD</option>
-                        <option value="YEN">YEN</option>
-                    </select>
+                    <select name="to" id="to"></select>
                 </div>
             </div>
         </div>
     <div class="msg">1USD = 80INR</div>
-    <button>Get exchange Rate</button>
+    <button id="exchange">Get exchange Rate</button>
     </form>
 </div>
-    <script src="app.js"></script>
+<script src="codes.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
